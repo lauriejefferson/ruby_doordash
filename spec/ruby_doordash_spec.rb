@@ -7,7 +7,7 @@ RSpec.describe RubyDoordash do
 
   # it "gets a delivery" do
   #   delivery = {
-  #     'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImRkLXZlciI6IkRELUpXVC1WMSJ9.eyJhdWQiOiJkb29yZGFzaCIsImlzcyI6IjdiMWUzNjJhLTgwMDktNDhmNC1iYjZiLTBlY2I1OWE5MGY4NCIsImtpZCI6ImQ3NzEwM2U4LTdiNGUtNDRjMC04NjY3LTYwZGI4M2UwNTcyOSIsImV4cCI6MTY4ODM5MzM5NywiaWF0IjoxNjg4MzkyODk3fQ.j-3hmHiB1R4qTofiLoya01R6CNpQmDB27QlurIuWlG0',
+  #     'token': '',
   #     'external_delivery_id': 'f1203080-00cb-4d4c-b589-bb7ccb0de73b'
   #   }
 
@@ -58,7 +58,7 @@ RSpec.describe RubyDoordash do
   #   })
   # end
   it "creates a quote" do 
-    token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImRkLXZlciI6IkRELUpXVC1WMSJ9.eyJhdWQiOiJkb29yZGFzaCIsImlzcyI6IjdiMWUzNjJhLTgwMDktNDhmNC1iYjZiLTBlY2I1OWE5MGY4NCIsImtpZCI6ImQ3NzEwM2U4LTdiNGUtNDRjMC04NjY3LTYwZGI4M2UwNTcyOSIsImV4cCI6MTY4ODQwMzg5MCwiaWF0IjoxNjg4NDAyODkwfQ.FdZ6WIqDjfQo2yMNCcqbD4o5VkP_ATqCvrRxS2w5Jvg'
+    token = ''
     quote =  {
       "external_delivery_id": "D-1763",
       "token": token,
