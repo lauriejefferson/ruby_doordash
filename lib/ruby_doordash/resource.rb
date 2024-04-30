@@ -12,7 +12,7 @@ module RubyDoordash
       handle_response client.connection.get(url, params, headers)
     end
     def post_request(url, body: {}, headers: {})
-      client.connection.get(url, params, headers)
+      client.connection.get(url, body, headers)
     end
     def patch_request(url, body: {}, headers: {})
       client.connection.get(url, params, headers)

@@ -2,24 +2,26 @@ PATH
   remote: .
   specs:
     ruby_doordash (0.1.0)
-      faraday (~> 2.7)
+      faraday (~> 2.9)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    faraday (2.7.9)
-      faraday-net_http (>= 2.0, < 3.1)
-      ruby2_keywords (>= 0.0.4)
-    faraday-net_http (3.0.2)
+    faraday (2.9.0)
+      faraday-net_http (>= 2.0, < 3.2)
+    faraday-net_http (3.1.0)
+      net-http
     minitest (5.22.3)
+    net-http (0.4.1)
+      uri
     rake (13.0.6)
-    ruby2_keywords (0.0.5)
+    uri (0.13.0)
 
 PLATFORMS
   x86_64-darwin-22
 
 DEPENDENCIES
-  faraday (~> 2.7)
+  faraday (~> 2.9)
   minitest (~> 5.22.3)
   rake (~> 13.0)
   ruby_doordash!

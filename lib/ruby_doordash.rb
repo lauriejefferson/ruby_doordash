@@ -11,9 +11,10 @@ module RubyDoordash
   autoload :Object, "ruby_doordash/object"
 
   # High-level categories of DoorDash API calls
-
   autoload :BusinessStoreResource, "ruby_doordash/resources/business_store"
   autoload :DeliveryResource, "ruby_doordash/resources/delivery"
 
-
+  # Classes used to return a nicer object wrapping the response data
+  autoload :BusinessStore, "ruby_doordash/objects/business_store"
+  autoload :Delivery, "ruby_doordash/objects/delivery"
 end

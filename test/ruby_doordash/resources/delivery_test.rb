@@ -6,9 +6,9 @@ class DeliveryResourceTest < Minitest::Test
     token = "fake"
     stub = stub_request("deliveries/#{external_delivery_id}", response: stub_response(fixture: "delivery/info"))
     client = RubyDoordash::Client.new(token: token, adapter: :test, stubs: stub)
-    res = client
+    delivery = client.delivery.info(external_delivery_id: external_delivery_id)
 
-    puts res.delivery.inspect
-
+    assert_equal RubyDoordash::Delivery, delivery.class
+    assert_equal "D-1763", delivery.dig('external_delivery_id')
   end
 end

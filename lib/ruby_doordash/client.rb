@@ -23,7 +23,7 @@ module RubyDoordash
     def connection
       @connection ||= Faraday.new(BASE_URL) do |conn|
         conn.headers[:accept_encoding] = 'none'
-        conn.request :authorization, 'Bearer ', token
+        conn.request :authorization, :Bearer, token
         conn.request :json
 
         conn.response :json, content_type: "application/json"
