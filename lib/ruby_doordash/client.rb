@@ -13,11 +13,23 @@ module RubyDoordash
     end
 
     def delivery
-      DeliveryResource.new(self)
+      Drive::DeliveryResource.new(self)
     end
 
-    def business_store
-      BusinessStore.new(self)
+    def business
+      Drive::Business.new(self)
+    end
+
+    def delivery_classic
+      DriveClassic::DeliveryResource.new(self)
+    end
+
+    def business_classic
+      DriveClassic::Business.new(self)
+    end
+
+    def store_classic
+      DriveClassic::Store.new(self)
     end
 
     def connection

@@ -1,4 +1,5 @@
 module RubyDoordash
+  module Drive
   class DeliveryResource < Resource
     def get_delivery(external_delivery_id:)
       Delivery.new get_request("drive/v2/deliveries/#{external_delivery_id}").body
@@ -24,4 +25,5 @@ module RubyDoordash
       Delivery.new put_request("drive/v2/deliveries/#{external_delivery_id}/cancel", body: {}).body
     end
   end
+end
 end

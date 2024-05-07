@@ -1,5 +1,5 @@
 module RubyDoordash
-  class BusinessStore < Object
+  class Estimate < Object
 
   end
 end
