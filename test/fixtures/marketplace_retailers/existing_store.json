@@ -1,0 +1,18 @@
+{
+    "merchant_supplied_store_id": "string",
+    "open_hours": [
+        {
+            "day_index": "MON",
+            "start_time": "string",
+            "end_time": "string"
+        }
+    ],
+    "special_hours": [
+        {
+            "date": "string",
+            "start_time": "string",
+            "end_time": "string",
+            "closed": true
+        }
+    ]
+}

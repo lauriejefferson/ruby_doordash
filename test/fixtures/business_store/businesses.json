@@ -1,0 +1,23 @@
+{
+    "result": [
+        {
+            "name": "Neighborhood Deli",
+            "description": "A neighborhood deli serving many tasty sandwiches and soups.",
+            "external_business_id": "a0720d55-7cbe-41ce-8185-58285b7985cd",
+            "activation_status": "active",
+            "created_at": "2022-04-25T17:21:43Z",
+            "last_updated_at": "2022-04-25T17:21:43Z",
+            "is_test": false,
+            "external_metadata": {
+                "number_of_stores": "10",
+                "client_email": "merchant@doordash.com",
+                "client_phone_number": "+12065551212",
+                "external_store_ids": [
+                    null
+                ]
+            }
+        }
+    ],
+    "continuation_token": "string",
+    "result_count": 0
+}

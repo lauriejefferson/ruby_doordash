@@ -22,7 +22,7 @@ module RubyDoordash
       end
 
       def cancel_delivery(delivery_id: , **reason)
-        Cancellation.new put_request("drive/v1/deliveries/#{delivery_id}/cancel", body: reason).body
+        DeliveryCancellation.new put_request("drive/v1/deliveries/#{delivery_id}/cancel", body: reason).body
       end
     end
   end

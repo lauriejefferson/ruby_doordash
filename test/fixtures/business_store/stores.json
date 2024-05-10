@@ -1,0 +1,17 @@
+{
+    "result": [
+        {
+            "name": "Neighborhood Deli #10",
+            "external_business_id": "a0720d55-7cbe-41ce-8185-58285b7985cd",
+            "external_store_id": "ed178ef3-b486-4ce8-8baa-5bc9f0f3fa4a",
+            "phone_number": "+12065551212",
+            "address": "901 Market Street, 6th Floor, San Francisco, CA, 94103",
+            "status": "active",
+            "is_test": false,
+            "created_at": "2022-04-25T17:21:43Z",
+            "last_updated_at": "2022-04-25T17:21:43Z"
+        }
+    ],
+    "continuation_token": "string",
+    "result_count": 0
+}
