@@ -4,7 +4,7 @@ module RubyDoordash
 
     attr_reader :token, :adapter
 
-   def initialize(token:, adapter: Faraday.default_adapter, stubs: nil)
+    def initialize(token:, adapter: Faraday.default_adapter, stubs: nil)
       @token = token
       @adapter = adapter
 
@@ -16,20 +16,12 @@ module RubyDoordash
       Drive::DeliveryResource.new(self)
     end
 
-    def business
-      Drive::Business.new(self)
-    end
-
     def delivery_classic
       DriveClassic::DeliveryResource.new(self)
     end
 
-    def business_classic
-      DriveClassic::Business.new(self)
-    end
-
-    def store_classic
-      DriveClassic::Store.new(self)
+    def business_store
+      DriveClassic::BusinessStoreResource.new(self)
     end
 
     def connection
