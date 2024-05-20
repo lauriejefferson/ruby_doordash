@@ -5,8 +5,8 @@ module RubyDoordash
         Estimate.new post_request("drive/v1/estimates", body: estimate).body
       end
 
-      def create_delivery_validation(**validation)
-        Validation.new post_request("drive/v1/validations", body: validation).body
+      def create_delivery_validation(**delivery)
+        Validation.new post_request("drive/v1/validations", body: delivery).body
       end
 
       def create_delivery(**delivery)
