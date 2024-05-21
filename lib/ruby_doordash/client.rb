@@ -24,6 +24,21 @@ module RubyDoordash
       DriveClassic::BusinessStoreResource.new(self)
     end
 
+    def marketplace
+      Drive::MarketplaceResource.new(self)
+    end
+
+    def marketplace_retailers
+      Drive::MarketplaceRetailersResource.new(self)
+    end
+
+    def marketplace_legacy
+      DriveClassic::MarketplaceLegacy.new(self)
+    end
+
+    def reporting
+      DriveClassic::Reporting.new(self)
+    end
     def connection
       @connection ||= Faraday.new(BASE_URL) do |conn|
         conn.headers[:accept_encoding] = 'none'

@@ -41,6 +41,7 @@ module RubyDoordash
   autoload :MxOrderAdjustRecord, "ruby_doordash/objects/mx_order_adjust_record"
   autoload :Order, "ruby_doordash/objects/order"
   autoload :OrderCancellation, "ruby_doordash/objects/order_cancellation"
+  autoload :Reference, "ruby_doordash/objects/reference"
   autoload :ReportLink, "ruby_doordash/objects/report_link"
   autoload :StoreActivationStatus, "ruby_doordash/objects/store_activation_status"
   autoload :StoreConfirmOrderReadyForPickupRecord, "ruby_doordash/objects/store_confirm_order_ready_for_pickup_record"
