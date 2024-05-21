@@ -1,0 +1,20 @@
+{
+    "delivery_time": "2018-08-22T17:20:28Z",
+    "fee": 1900,
+    "fee_components": [
+        {
+            "type": "distance_based_fee",
+            "amount": 1900
+        }
+    ],
+    "tax": 520,
+    "tax_components": [
+        {
+            "type": "gst_hst",
+            "amount": 520
+        }
+    ],
+    "pickup_time": "2018-08-22T18:10:58Z",
+    "currency": "USD",
+    "id": 48173944
+}
