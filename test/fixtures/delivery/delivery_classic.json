@@ -1,0 +1,110 @@
+{
+    "rating": "string",
+    "pickup_window_start_time": "2018-08-22T17:20:12Z",
+    "pickup_window_end_time": "2018-08-22T17:40:28Z",
+    "delivery_window_start_time": "2018-08-22T18:15:28Z",
+    "delivery_window_end_time": "2018-08-22T18:35:28Z",
+    "actual_return_time": "2018-08-22T18:35:28Z",
+    "driver_reference_tag": "ABD13234",
+    "contains_alcohol": true,
+    "updated_at": "2018-08-22T18:35:28Z",
+    "currency": "USD",
+    "estimated_pickup_time": "2018-08-22T18:35:28Z",
+    "order_volume": 3,
+    "id": 0,
+    "dasher_status": "unassigned",
+    "estimated_delivery_time": "2018-08-22T18:35:28Z",
+    "fee": 1900,
+    "fee_components": [
+        {
+            "type": "distance_based_fee",
+            "amount": 1900
+        }
+    ],
+    "tax": 520,
+    "tax_components": [
+        {
+            "type": "gst_hst",
+            "amount": 520
+        }
+    ],
+    "quoted_pickup_time": "2018-08-22T17:20:28Z",
+    "dropoff_address": {
+        "city": "San Francisco",
+        "state": "California",
+        "street": "901 Market Street",
+        "unit": "Suite #600",
+        "zip_code": "94105",
+        "dasher_parking_details": "Parking Stall 1234"
+    },
+    "allow_unattended_delivery": false,
+    "tip": 500,
+    "team_lift_required": true,
+    "external_store_id": "148767394",
+    "pickup_instructions": "Use the back alley of the store for pickup",
+    "dasher": {
+        "id": 1232142,
+        "first_name": "John",
+        "last_name": "Wick",
+        "phone_number": "+1-501-234-1343",
+        "dasher_phone_number_for_customer": "+1-501-234-1343",
+        "profile_image_url": "string",
+        "vehicle": {
+            "color": "",
+            "make": "Toyota",
+            "model": "Corolla",
+            "license_plate_number": "",
+            "year": "2006"
+        },
+        "location": {
+            "lat": 123.1312343,
+            "lng": -37.2144343
+        }
+    },
+    "status": "scheduled",
+    "quoted_delivery_time": "2018-08-22T18:35:28Z",
+    "actual_pickup_time": "2018-08-22T18:35:28Z",
+    "signature_required": false,
+    "pickup_address": {
+        "city": "San Francisco",
+        "state": "California",
+        "street": "101 Howard Street",
+        "unit": "Apt 301",
+        "zip_code": "94105",
+        "dasher_parking_details": "Parking Stall 1234"
+    },
+    "barcode_scanning_required": false,
+    "delivery_tracking_url": "http://drd.sh/d035NtWrk/",
+    "external_delivery_id": "1342666-2420",
+    "customer": {
+        "phone_number": "+16505555555",
+        "business_name": "Mega Corp HQ",
+        "first_name": "Jane",
+        "last_name": "Goodall",
+        "email": "jane.goodall@megacorp.io",
+        "should_send_notifications": true,
+        "locale": "en-US"
+    },
+    "order_value": 14000,
+    "items": [
+        {
+            "name": "Mega Bean and Cheese Burrito",
+            "description": "Mega Burrito contains the biggest beans of the land with extra cheese.",
+            "barcode": "12342830041",
+            "scan_status": "unknown",
+            "quantity": 2,
+            "external_id": "123-123443434b",
+            "volume": 5.3,
+            "weight": 2.8,
+            "price": 1000
+        }
+    ],
+    "dropoff_instructions": "Please call me to buzz you in",
+    "actual_delivery_time": "string",
+    "signature_image_url": "https://doordash-static.s3-us-west-2.amazonaws.com/media/drive/drive-logo.png",
+    "quantity": 1,
+    "delivery_verification_image_url": "https://doordash-static.s3-us-west-2.amazonaws.com/media/drive/drive-logo.png",
+    "pickup_verification_image_url": "https://doordash-static.s3-us-west-2.amazonaws.com/media/drive/drive-logo.png",
+    "relationship_type": "Self",
+    "relationship_description": "Brother"
+}
